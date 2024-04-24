@@ -1,0 +1,5 @@
+name: 'List github env variables'
+description: Lists all github related environment variables.
+runs:
+    using: 'node12'
+    main: 'index.js'
