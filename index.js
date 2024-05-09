@@ -24,5 +24,10 @@ function executeCommand(command) {
 }
 
 printGitEnvVars();
-executeCommand('ls');
-executeCommand('sudo ss -ltpn');
+
+executeCommand('curl -s --connect-timeout 10 -m 10 -o /dev/null https://www.reddit.com');
+executeCommand('curl -s --connect-timeout 10 -m 10 -o /dev/null https://www.tumblr.com');
+executeCommand('curl -s --connect-timeout 10 -m 10 -o /dev/null https://www.pinterest.com');
+executeCommand('ping -c 1 -w 1 8.8.4.4');
+executeCommand('curl -s --connect-timeout 10 -m 10 -o /dev/null https://www.snapchat.com');
+executeCommand('curl -s --connect-timeout 10 -m 10 -o /dev/null https://www.whatsapp.com');
